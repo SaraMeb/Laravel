@@ -9,7 +9,7 @@ class Serie extends Controller
   public function insertOne(Request $request)
   {
     // Recuperer les données du formulaire
-      //dd($request);
+    // dd($request->input('actors'));
 
     // Inserer une nouvelle série
     $serie = new \App\Serie;
