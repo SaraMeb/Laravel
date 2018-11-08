@@ -1,0 +1,53 @@
+h1{
+  color: yellow;
+  font-size: 2em;
+  text-align: center;
+}
+html{
+  background-color:grey;
+
+}
+ul a{
+  color: yellow;
+  text-decoration: none;
+}
+header{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3939;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+.div-image{
+  height: 100%;
+  width: 50%;
+}
+.tableau{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
